@@ -64,7 +64,7 @@ const Index = ({ people, createPeople }) => {
                     value={form.title}
                     onChange={handleChange}
                 />
-                <button>ENTER</button>
+                <input type="submit" value="ADD"/>
             </form>
             {people ? loaded() : loading()}
         </section>

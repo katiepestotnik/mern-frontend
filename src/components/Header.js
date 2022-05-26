@@ -8,9 +8,6 @@ const Header = () => {
         <Link to='/'>
             <div>PEOPLE INDEX</div>
         </Link>
-        <Link to={`/people/${id}`}>
-            <div>PERSON SHOW</div>
-        </Link>
     </nav>)
 }
 export default Header
