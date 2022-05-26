@@ -34,9 +34,10 @@ const Main = () => {
             <Routes>
                 <Route
                     path="/"
-                    people={people}
-                    createPeople={createPeople}
-                    element={<Index />} />
+                    element={
+                        <Index
+                        people={people}
+                        createPeople={createPeople}/>} />
                 <Route path="/people/:id" element={<Show people={people}/>}/>
             </Routes>
         </div>
