@@ -5,8 +5,8 @@ const Main = () => {
     return (
         <div>
             <Routes>
-                <Index />
-                <Show />
+                <Route path="/" element={<Index />} />
+                <Route path="/people/:id" element={<Show/>}/>
             </Routes>
         </div>
     )
